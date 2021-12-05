@@ -605,16 +605,16 @@ c h3{
     margin-bottom: 1.5rem;
 }
 
-.footer{
+footer{
     margin-top: 2rem;
     font-size: 2rem;
     padding: 2.5rem;
     text-align: center;
-    color: #333;
-    background: white;
+    color: #fff;
+    background: #222;
 }
 
-.footer span{
+footer span{
     color: var(--main-color);
 }
 
