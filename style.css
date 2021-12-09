@@ -622,7 +622,7 @@ footer span{
 
 /* media query */
 
-@media (max-width: 991px){
+@media all and (min-width: 1024px) and (max-width: 1280px){
 
     html{
         font-size: 55%;
@@ -652,14 +652,59 @@ footer span{
 }
 
 
+
+@media all and (min-width: 450px) and (max-width: 991px){
+
+
+html{
+    font-size: 20%;
+}
+
+body{
+    padding: 0;
+}
+
+#menu-bars{
+    display: initial;
+}
+
+header{
+    left: 0%;
+}
+
+header.active {
+    left: 0%;
+}
+
+.cursor-1,
+.cursor-2{
+display: none;
+}
+
+}
+
+
+
+ @media all and (min-width: 768px) and (max-width: 500px){
+
+
+
+
+} 
+
+
+
+
+
+
 @media (max-width: 450px){
 
     html{
-        font-size: 50%;
+        font-size: 24%;
     }
 
     header{
-        width: 100%;
+        width: 30%;
     }
 
     .experience .box-container .box{
@@ -667,6 +712,31 @@ footer span{
     }
  
 }
+
+
+
+
+@media (max-width: 320px){
+
+    html{
+        font-size: 10%;
+    }
+
+    header{
+        width: 5%;
+    }
+
+    .experience .box-container .box{
+        padding-right: 0;
+    }
+ 
+}
+
+
+
+
+
+
 
 
 
